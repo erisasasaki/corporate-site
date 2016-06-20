@@ -6,7 +6,7 @@ $baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino 
 
 // colors
 $baseColor: #F7F7F7;
-$subColor: #1A191C;
+$subColor: #C2C5CC;
 $keyColor: #C4165D;
 $fontColor: #4c4c4c;
 
@@ -331,17 +331,30 @@ footer {
 }
 
 
-
-.flexible-images {
-  max-width: 100%;
-  height: auto;
+@media (min-width: 769px) {
+  .flexible-images {
+    height:600px;
+    width:100%;
+    background-image: url("../images/PPP_aoigakubuchi.jpg");
+    background-size:cover;
+  }
 }
 
 
+@media (max-width: 768px) {
+  .flexible-images {
+    height:400px;
+    width:100%;
+    background-image: url("../images/PPP_aoigakubuchi.jpg");
+    background-size:cover;
+  }
+}
+
 a.button {
     color:#ffffff;
+    font-size: 2.0rem;
     background-color: $keyColor;
-    width: 200px;
+    width: 300px;
     padding: 10px 30px;
     text-align: center;
     text-decoration: none;

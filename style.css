@@ -93,7 +93,7 @@ section {
     font-size: 3.2rem; }
 
 #skills {
-  background-color: #1A191C; }
+  background-color: #C2C5CC; }
   #skills .container {
     display: -webkit-flex;
     display: flex;
@@ -224,7 +224,7 @@ section {
 /* Footer
 ------------------------------------------------------------*/
 footer {
-  background-color: #1A191C;
+  background-color: #C2C5CC;
   padding: 10px 0;
   text-align: center;
   color: #FFF; }
@@ -261,14 +261,23 @@ footer {
 
   #contact ul a:hover {
     background-color: #961147; } }
-.flexible-images {
-  max-width: 100%;
-  height: auto; }
-
+@media (min-width: 769px) {
+  .flexible-images {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/PPP_aoigakubuchi.jpg");
+    background-size: cover; } }
+@media (max-width: 768px) {
+  .flexible-images {
+    height: 400px;
+    width: 100%;
+    background-image: url("../images/PPP_aoigakubuchi.jpg");
+    background-size: cover; } }
 a.button {
   color: #ffffff;
+  font-size: 2.0rem;
   background-color: #C4165D;
-  width: 200px;
+  width: 300px;
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;
