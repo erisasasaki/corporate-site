@@ -265,13 +265,13 @@ footer {
   .flexible-images {
     height: 600px;
     width: 100%;
-    background-image: url("../images/PPP_aoigakubuchi.jpg");
+    background-image: url("./images/PPP_aoigakubuchi.jpg");
     background-size: cover; } }
 @media (max-width: 768px) {
   .flexible-images {
     height: 400px;
     width: 100%;
-    background-image: url("../images/PPP_aoigakubuchi.jpg");
+    background-image: url("./images/PPP_aoigakubuchi.jpg");
     background-size: cover; } }
 a.button {
   color: #ffffff;
