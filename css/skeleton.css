@@ -402,17 +402,17 @@ there.
 */
 
 
-/* Larger than mobile */
+/* モバイル以上 */
 @media (min-width: 400px) {}
 
-/* Larger than phablet (also point when grid becomes active) */
+/* ファブレット以上（グリッドがアクティブになる）*/
 @media (min-width: 550px) {}
 
-/* Larger than tablet */
+/* タブレット以上 */
 @media (min-width: 750px) {}
 
-/* Larger than desktop */
+/* デスクトップ以上 */
 @media (min-width: 1000px) {}
 
-/* Larger than Desktop HD */
+/* デスクトップHD以上 */
 @media (min-width: 1200px) {}
