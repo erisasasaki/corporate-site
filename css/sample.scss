@@ -474,13 +474,6 @@ h1{
 
 // main
 
-#sub_cover{
-
-    background-image: url("images/news/sub_cover@2x.jpg");
-    padding:80px 0;
-    background-size: cover;
-  
-                    }
 
 
 #sub_cover{
@@ -501,11 +494,11 @@ h1{
     letter-spacing: 0.2rem;
     line-height: 1.25;
 }
-  
 
 
 @media (min-width: 550px) {
     padding: 80px 0;
+    background-image: url("images/news/sub_cover@2x.jpg");
 #contents {
     padding-top: 35px;
     padding-bottom: 70px;
